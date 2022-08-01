@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SamStore</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-md bg-dark navbar-dark py-3 fixed-top">
+      <div class="container">
+        <a href="#" class="navbar-brand text-light"> SamStore</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navmenu"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navmenu">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a href="#mentors" class="nav-link">Мобильные устройства</a>
+            </li>
+            <li class="nav-item">
+              <a href="#about" class="nav-link">ТВ и аудио</a>
+            </li>
+            <li class="nav-item">
+              <a href="#contacts" class="nav-link">Для дома</a>
+            </li>
+            <li class="nav-item">
+              <a href="#contacts" class="nav-link">Для бизнеса</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <div class="bg-light text-dark p-5 text-center text-sm-start">
+      <div class="container">
+        <div class="d-sm-flex align-items-center justify-content-between mt-5">
+          <div>
+            <h1>
+              Твоя техника.
+              <span class="text-info">Твоя жизнь! </span>
+            </h1>
+            <p class="lead my-4">
+              Мы делаем жизнь легче. Ощути прорыв техничеуского развития вместе
+              с нами, выбирай лучших!
+            </p>
+
+            <button
+              type="button"
+              class="btn btn-primary"
+              data-bs-toggle="modal"
+              data-bs-target="#exampleModal"
+              data-bs-whatever="@mdo"
+            >
+              Консультация
+            </button>
+
+            <div
+              class="modal fade"
+              id="exampleModal"
+              tabindex="-1"
+              aria-labelledby="exampleModalLabel"
+              aria-hidden="true"
+            >
+              <div class="modal-dialog">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">
+                      Оставьте контакты ниже
+                    </h5>
+                    <button
+                      type="button"
+                      class="btn-close"
+                      data-bs-dismiss="modal"
+                      aria-label="Закрыть"
+                    ></button>
+                  </div>
+                  <div class="modal-body">
+                    <form>
+                      <div class="mb-3">
+                        <label for="recipient-name" class="col-form-label"
+                          >Телефон:</label
+                        >
+                        <input
+                          type="number"
+                          class="form-control"
+                          placeholder="+996 700 111 111"
+                          id="recipient-name"
+                        />
+                      </div>
+                      <div class="mb-3">
+                        <label for="message-text" class="col-form-label"
+                          >Коментарий:</label
+                        >
+                        <textarea
+                          class="form-control"
+                          placeholder="Хочу оформить заказ с доставкой)"
+                          id="message-text"
+                        ></textarea>
+                      </div>
+                    </form>
+                  </div>
+                  <div class="modal-footer">
+                    <button
+                      type="button"
+                      class="btn btn-secondary"
+                      data-bs-dismiss="modal"
+                    >
+                      Закрыть
+                    </button>
+                    <button type="button" class="btn btn-primary">
+                      Оформить
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <img
+            src="https://i.pinimg.com/736x/cb/dc/a7/cbdca7a68e32fecf7c0270375bc14121.jpg"
+            alt="error"
+            class="w-50 d-none d-md-block img-fluid"
+          />
+        </div>
+      </div>
+    </div>
+
+    <div class="container text-center my-5">
+      <h2 class="title">Товары</h2>
+    </div>
+
+    <div class="row d-flex justify-content-between">
+      <div class="col-4">
+        <div class="card bg-light text-dark mb-4">
+          <div class="card-body text-center">
+            <img
+              src="https://asiaexpress.kg/uploads/media/product_photo/0001/05/55a8304362354ba6924fb408400f846d0973c241.jpeg"
+              alt="error"
+              class="w-75"
+            />
+          </div>
+          <h3 class="card-title text-center">Холодильники</h3>
+          <p class="card-text">
+            Устройство, поддерживающее низкую температуру в теплоизолированной
+            камере. Применяется обычно для хранения пищи или предметов,
+            требующих хранения в прохладном месте.
+          </p>
+          <a href="" class="btn btn-info">Подробнее</a>
+        </div>
+      </div>
+      <div class="col-4">
+        <div class="card bg-light text-dark mb-4">
+          <div class="card-body text-center">
+            <img
+              src="https://xn--90aah4bblqh.xn--p1ai/wp-content/uploads/2020/03/e50f865bce0e9fc858ab8dff8dbb36f775efb573_15716697112606.jpg"
+              alt="error"
+              class="w-75"
+            />
+          </div>
+          <h3 class="card-title text-center">Стиральные машины</h3>
+          <p class="card-text">
+            Установка для стирки текстильных изделий (одежды, нижнего и
+            постельного белья, сумок и других вещей), а также иногда обуви. Одна
+            стиралка по производитульности равен 20 женам.
+          </p>
+          <a href="" class="btn btn-info">Подробнее</a>
+        </div>
+      </div>
+      <div class="col-4">
+        <div class="card bg-light text-dark mb-4">
+          <div class="card-body text-center">
+            <img
+              src="https://object.pscloud.io/cms/cms/Photo/img_0_24_294_11_6.png"
+              alt="error"
+              class="w-75"
+            />
+          </div>
+          <h3 class="card-title text-center">Пылесосы</h3>
+          <p class="card-text">
+            Машина для уборки пыли и загрязнений с поверхностей за счёт
+            всасывания потоком воздуха. Пыль и загрязнения накапливаются в
+            пылесборнике, из которого они должны регулярно удаляться
+          </p>
+          <a href="" class="btn btn-info">Подробнее</a>
+        </div>
+      </div>
+    </div>
+
+    <div
+      id="carouselExampleIndicators"
+      class="carousel slide mt-5"
+      data-bs-ride="true"
+    >
+      <div class="carousel-indicators">
+        <button
+          type="button"
+          data-bs-target="#carouselExampleIndicators"
+          data-bs-slide-to="0"
+          class="active"
+          aria-current="true"
+          aria-label="Slide 1"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#carouselExampleIndicators"
+          data-bs-slide-to="1"
+          aria-label="Slide 2"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#carouselExampleIndicators"
+          data-bs-slide-to="2"
+          aria-label="Slide 3"
+        ></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img
+            src="https://stroy-podskazka.ru/images/article/orig/2020/02/ne-vklyuchaetsya-televizor-samsung-prichiny-i-ustranenie-problemy-4.jpg"
+            class="d-block w-100"
+            alt="..."
+          />
+        </div>
+        <div class="carousel-item">
+          <img
+            src="https://ultra-ultra.ru/wa-data/public/photos/56/16/1656/1656.970.jpg"
+            class="d-block w-100"
+            alt="..."
+          />
+        </div>
+        <div class="carousel-item">
+          <img
+            src="https://img.netzwelt.de/dw1018_dh573_sw1328_sh747_sx2_sy26_sr16x9_nu0/picture/original/2021/08/samsung-galaxy-z-flip-3-lifestyle-314669.jpg"
+            class="d-block w-100"
+            alt="..."
+          />
+        </div>
+      </div>
+      <button
+        class="carousel-control-prev"
+        type="button"
+        data-bs-target="#carouselExampleIndicators"
+        data-bs-slide="prev"
+      >
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Предыдущий</span>
+      </button>
+      <button
+        class="carousel-control-next"
+        type="button"
+        data-bs-target="#carouselExampleIndicators"
+        data-bs-slide="next"
+      >
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Следующий</span>
+      </button>
+    </div>
+
+    <!-- Footer -->
+    <footer class="text-center text-lg-start bg-dark text-white mt-5">
+      <!-- Section: Social media -->
+      <section
+        class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom"
+      ></section>
+      <!-- Section: Social media -->
+
+      <!-- Section: Links  -->
+      <section class="">
+        <div class="container text-center text-md-start mt-5">
+          <!-- Grid row -->
+          <div class="row mt-3">
+            <!-- Grid column -->
+            <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+              <!-- Content -->
+              <h6 class="text-uppercase fw-bold mb-4">
+                <i class="fas fa-gem me-3 text-grayish"></i>SamStore
+              </h6>
+              <p>
+                Покупаю здесь! <br />
+                SamStore. Выбор очевиден!<br />
+                SamStore. Технику - людям
+              </p>
+            </div>
+            <!-- Grid column -->
+
+            <!-- Grid column -->
+            <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+              <!-- Links -->
+              <h6 class="text-uppercase fw-bold mb-4">Товары</h6>
+              <p>
+                <a href="#!" class="text-reset">Бытовая техника</a>
+              </p>
+              <p>
+                <a href="#!" class="text-reset">Электроника</a>
+              </p>
+              <p>
+                <a href="#!" class="text-reset">Аксессуары</a>
+              </p>
+              <p>
+                <a href="#!" class="text-reset">Для дома</a>
+              </p>
+            </div>
+            <!-- Grid column -->
+
+            <!-- Grid column -->
+            <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+              <!-- Links -->
+              <h6 class="text-uppercase fw-bold mb-4">Полезные ссылки</h6>
+              <p>
+                <a href="#!" class="text-reset">Прайс лист</a>
+              </p>
+              <p>
+                <a href="#!" class="text-reset">Настройки</a>
+              </p>
+              <p>
+                <a href="#!" class="text-reset">Акции</a>
+              </p>
+              <p>
+                <a href="#!" class="text-reset">Помощь</a>
+              </p>
+            </div>
+            <!-- Grid column -->
+
+            <!-- Grid column -->
+            <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+              <!-- Links -->
+              <h6 class="text-uppercase fw-bold mb-4">Контакты</h6>
+              <p>
+                <i class="fas fa-home me-3 text-grayish"></i>г.Бишкек Токтогула
+                1/3
+              </p>
+              <p>
+                <i class="fas fa-envelope me-3 text-grayish"></i>
+                samstore@gmail.com
+              </p>
+              <p>
+                <i class="fas fa-phone me-3 text-grayish"></i> + 996 111 222 333
+              </p>
+              <p>
+                <i class="fas fa-print me-3 text-grayish"></i> + 996 111 222 333
+              </p>
+            </div>
+            <!-- Grid column -->
+          </div>
+          <!-- Grid row -->
+        </div>
+      </section>
+      <!-- Section: Links  -->
+    </footer>
+    <!-- Footer -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
